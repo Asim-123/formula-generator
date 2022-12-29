@@ -1,0 +1,192 @@
+:root {
+    --bodycolor: #F7F7FC;
+    --primarycolor: #F04C04;
+}
+
+body {
+    background-color: var(--bodycolor);
+}
+
+.formula-heading {
+    font-family: Mulish;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.005em;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+}
+.formula-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #9A9AB0;
+}
+
+
+.card {
+    width: 608px;
+    height: 539px;
+    background-color: white;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.line {
+    height: 4px;
+    width: 304px;
+    border-radius: 0px;
+    background-color: var(--primarycolor);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    height: 539px;
+}
+
+form {
+    margin-top: 40px;
+    width: 370px;
+}
+
+.pass {
+    margin-top: 40px;
+}
+
+label {
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    margin-left: 10px;
+}
+
+form input {
+    margin-top: 10px;
+    height: 83;
+    width: 350px;
+    border: 1px solid #F04C04;
+    border-radius: 8px;
+    padding: 18px 0px 19px 24px;
+}
+
+input::placeholder {
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    text-align: left;
+
+}
+
+input[type=email]:focus {
+    border: transparent;
+}
+
+h3 {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    text-align: right;
+    color: #9A9AB0;
+}
+
+.signin-btn {
+    font-family: Mulish;
+    height: 48px;
+    width: 380px;
+    left: 520px;
+    top: 556px;
+    border-radius: 8px;
+    border: transparent;
+    padding: 14px 24px 14px 24px;
+    background-color: var(--primarycolor);
+    font-size: 15px;
+    color: white;
+}
+
+.signin-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.google-btn a {
+    text-decoration: none;
+    color: var(--primarycolor);
+}
+.signin-btn:hover {
+    transform: translateX(10px);
+    transition: 2s;
+}
+
+.google-btn:hover {
+    transform: translateX(10px);
+    transition: 2s;
+}
+
+
+
+h4 {
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.008em;
+    text-align: center;
+    color: #9A9AB0;
+}
+
+.google-btn {
+    font-family: Mulish;
+    height: 48px;
+    width: 380px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: 1px solid var(--primarycolor);
+    padding: 14px 24px 14px 24px;
+    background-color: white;
+    color: var(--primarycolor);
+}
+
+.sign-up {
+    height: 755px;
+}
+
+.email {
+    margin-top: 40px;
+}
+
+.confirm-pass {
+    margin-top: 40px;
+}
+
+.right-line {
+    height: 4px;
+    width: 302px;
+    border-radius: 0px;
+    background-color: var(--primarycolor);
+}
+
+

@@ -1,0 +1,297 @@
+:root {
+    --bodycolor: #F7F7FC;
+    --primarycolor: #F04C04;
+}
+
+body {
+    margin: 0;
+    background-color: #F7F7FC
+}
+
+header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 20px;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    margin-right: 20px;
+}
+
+.profile h3 {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    margin-top: 25px;
+    height: 0px;
+}
+
+.profile h5 {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.008em;
+    color: #9A9AB0;
+}
+
+.sidebar-main {
+    display: flex;
+}
+
+.sidebar {
+    height: 1024px;
+    width: 271px;
+    border-radius: 0px;
+    background-color: white;
+}
+
+.sidebar nav ul {
+    margin-top: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar nav ul li {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.sidebar nav ul li a:hover {
+    color: #F04C04;
+    transition: 1s;
+    left: 0px;
+    top: 125px;
+    border-radius: 0px;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    margin-top: 80px;
+    height: 20px;
+    width: 128px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.a {
+    position: absolute;
+    bottom: 0;
+}
+
+.section-one {
+    padding: 15px;
+    box-sizing: border-box;
+    height: 312px;
+    width: 950px;
+    margin-left: 20px;
+    margin-Top: 20px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+h1 {
+    Font-family: Open Sans;
+    Font-style: Bold;
+    Font-size: 31px;
+    Line-height: 37px;
+    Line-height: 120%;
+    Vertical-align: Top;
+    Letter-spacing: 0.5%;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+p {
+    margin-top: 10px;
+    font-family: Open Sans;
+    text-align: left;
+}
+
+.section-one ul {
+    margin-top: -10px;
+}
+
+.section-one ul li {
+    font-family: Open Sans;
+}
+
+.section-two {
+    height: 620px;
+    width: 950px;
+    border-radius: 6px;
+    margin-left: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 20px;
+    margin-Top: 20px;
+}
+
+.section-two h1 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.005em;
+}
+
+.section-two h4 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    margin-top: 40px;
+}
+
+.excel-btn {
+    height: 40px;
+    width: 88px;
+    background-color: transparent;
+    border: solid #DBD7F4;
+    border-radius: 8px;
+    padding: 11px 24px 11px 24px;
+}
+
+.excel-btn:hover {
+    transition: 2s;
+    transform: translateX(20px);
+}
+
+.g-btn {
+    height: 40px;
+    width: 159px;
+    left: 440px;
+    top: 564px;
+    border: solid var(--primarycolor);
+    background-color: transparent;
+    color: var(--primarycolor);
+    border-radius: 8px;
+    padding: 11px 24px 11px 24px;
+    margin-left: 30px;
+}
+
+.g-btn:hover {
+    transition: 2s;
+    transform: translateX(20px);
+}
+
+p {
+    margin-top: 15px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    text-align: left;
+
+}
+
+input {
+    height: 30px;
+    width: 600px;
+    left: 0px;
+    top: 27px;
+    border: 2px solid var(--primarycolor);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+input::placeholder {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+
+.submit {
+    height: 40px;
+    width: 106px;
+    border-radius: 8px;
+    background-color: var(--primarycolor);
+    border: transparent;
+    color: white;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+}
+
+.submit:hover {
+    transition: 2s;
+    transform: translateY(14px);
+
+}
+
+.small-card {
+    background-color: var(--bodycolor);
+    margin-top: 18px;
+    padding: 20px;
+    height: 145px;
+    width: 800px;
+    border-radius: 6px;
+}
+
+.small-card h1 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.005em;
+}
+
+.small-card h2 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+
+/* desktop 2 */
+
+.section-one-h {
+    height: 170px;
+}
+
+.sec-h2 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+
+.sidebar-h {
+    height: 850px;
+}
