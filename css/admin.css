@@ -295,3 +295,59 @@ input::placeholder {
 .sidebar-h {
     height: 850px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .sidebar {
+        height: 1024px;
+        width: 271px;
+        display: none;
+        border-radius: 0px;
+        background-color: white;
+    }
+
+    .headimg {
+        width: 200px;
+    }
+    
+    .section-one {
+        padding: 15px;
+        box-sizing: border-box;
+        height: 400px;
+        width: 400px;
+        margin-left: 20px;
+        margin-Top: 20px;
+        border-radius: 6px;
+        background-color: white;
+    }
+    .section-two {
+        padding: 15px;
+        box-sizing: border-box;
+        height: 600px;
+        width: 400px;
+        margin-left: 20px;
+        margin-Top: 20px;
+        border-radius: 6px;
+        background-color: white;
+    }
+
+    input {
+        height: 30px;
+        width: 300px;
+        left: 0px;
+        top: 27px;
+        border: 2px solid var(--primarycolor);
+        border-radius: 8px;
+        padding: 16px;
+    }
+    
+    .small-card {
+        background-color: var(--bodycolor);
+        margin-top: 18px;
+        padding: 20px;
+        height: 120px;
+        width: 300px;
+        border-radius: 6px;
+    }
+
+}

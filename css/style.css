@@ -19,6 +19,7 @@ img {
     display: flex;
     justify-content: center;
 }
+
 .formula-heading {
     display: flex;
     justify-content: center;
@@ -136,6 +137,7 @@ h3 {
     text-decoration: none;
     color: var(--primarycolor);
 }
+
 .signin-btn:hover {
     transform: translateX(10px);
     transition: 2s;
@@ -189,4 +191,63 @@ h4 {
     background-color: var(--primarycolor);
 }
 
+.chk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
 
+input[type="checkbox"] {
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+}
+.chk p{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 10px;
+    align-items: center;
+    width: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .card {
+        width: 400px;
+        height: 539px;
+        background-color: white;
+    }
+    input {
+        width: 300px;
+        height: 20px;
+        background-color: white;
+    }
+    .form {
+        display: flex;
+        justify-content: center;
+        height: 539px;
+    }
+    form {
+        margin-top: 40px;
+        width: 390px;
+    }
+
+    form {
+        margin-top: 40px;
+        width: 390px;
+    }
+    
+    
+
+    .line {
+        width: 200px;
+    }
+
+    .right-line {
+        width: 200px;
+    }
+    
+
+
+}
