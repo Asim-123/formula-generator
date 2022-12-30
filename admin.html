@@ -9,18 +9,19 @@
     <link rel='stylesheet' type='text/css' media='screen' href='./css/admin.css'>
     <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
     <script>
-        function show() {
-            var x = document.getElementById("formula-generator");
-            var y = document.getElementById("formula-explainer");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-                y.style.display = "block"
-            } else if (y.style.display === "none") {
-                y.style.display = "block";
-                x.style.display = "none";
-            } else {
-                y.style.display = "none"
-            }
+        function closeNav() {
+            var x = document.getElementById("sidebar").style.width = "45px";
+            document.getElementById("a").style.display = "none";
+            document.getElementById("b").style.display = "none";
+            document.getElementById("open").style.display = "block";
+            document.getElementById("close").style.display = "none";
+        }
+        function openNav() {
+            var x = document.getElementById("sidebar").style.width = "450px";
+            document.getElementById("a").style.display = "block";
+            document.getElementById("b").style.display = "block";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
         }
     </script>
 </head>
@@ -38,11 +39,13 @@
             </div>
         </header>
     </div>
+
     <div class="sidebar-main">
-        <div class="sidebar">
-            <button>col</button>
+        <div class="sidebar" id="sidebar" style="display: block">
+            <img onclick="closeNav()" id="close" class="col-icon" src="./img/closearrow.png" alt="" width="30" height="30">
+            <img onclick="openNav()" id="open" class="col-icon" src="./img/openarrow.png" alt="" style="display: none;" width="30" height="30">
             <nav>
-                <div>
+                <div class="b" id="a">
                     <ul>
                         <li><a href="./admin.html">Generate Formula</a></li>
                         <li><a href="./admin-two.html">Formula Explainer</a></li>
@@ -50,7 +53,7 @@
                     </ul>
                 </div>
 
-                <div class="a">
+                <div class="a" id="b">
                     <ul>
                         <li><a href="">Setting</a></li>
                         <li><a href="">Logout</a></li>
@@ -118,10 +121,11 @@
                         20</h2>
                 </div>
             </div>-->
-        </div>
+    </div>
     </div>
 
     </div>
+
 
 </body>
 

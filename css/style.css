@@ -214,40 +214,97 @@ input[type="checkbox"] {
 @media only screen and (max-width: 768px) {
 
     .card {
-        width: 400px;
+        width: 300px;
         height: 539px;
         background-color: white;
+        box-sizing: border-box;
     }
     input {
-        width: 300px;
+        width: 200px;
         height: 20px;
         background-color: white;
     }
+
+    form input {
+        margin-top: 10px;
+        height: 83;
+        width: 200px;
+        border: 1px solid #F04C04;
+        border-radius: 8px;
+    }
     .form {
         display: flex;
+        width: 500px;
         justify-content: center;
         height: 539px;
     }
+    .form h3{
+        display: flex;
+        justify-content: start;
+    }
+    .form h4{
+        display: block;
+        justify-content: center;
+        width: 200px;
+    }
     form {
         margin-top: 40px;
-        width: 390px;
+        width: 400px;
     }
-
-    form {
-        margin-top: 40px;
-        width: 390px;
-    }
-    
     
 
     .line {
-        width: 200px;
+        width: 150px;
     }
 
     .right-line {
         width: 200px;
     }
     
+    .signin-btn {
+        font-family: Mulish;
+        height: 48px;
+        width: 200px;
+        left: 520px;
+        top: 556px;
+        border-radius: 8px;
+        border: transparent;
+        padding: 14px 24px 14px 24px;
+        background-color: var(--primarycolor);
+        font-size: 15px;
+        color: white;
+    }
+    h3 {
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0.005em;
+        justify-content: center;
+    }    
+    
+    .google-btn {
+        font-family: Mulish;
+        height: 48px;
+        width: 200px;
+        border-radius: 8px;
+        font-size: 15px;
+        border: 1px solid var(--primarycolor);
+        padding: 14px 24px 14px 24px;
+        background-color: white;
+        color: var(--primarycolor);
+    }
 
+    .sign-up {
+        height: 855px;
+    }
+    
+    .chk {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+    }
+    
 
 }

@@ -7,7 +7,9 @@ body {
     margin: 0;
     background-color: #F7F7FC
 }
-
+.col-icon {
+    float: right;
+}
 header {
     height: 40px;
     display: flex;
@@ -180,7 +182,9 @@ p {
 
 .excel-btn:hover {
     transition: 2s;
-    transform: translateX(20px);
+    background-color: #3838be;
+    color: aliceblue;
+
 }
 
 .g-btn {
@@ -198,7 +202,7 @@ p {
 
 .g-btn:hover {
     transition: 2s;
-    transform: translateX(20px);
+    background-color: #3838be
 }
 
 p {
@@ -247,7 +251,7 @@ input::placeholder {
 
 .submit:hover {
     transition: 2s;
-    transform: translateY(14px);
+    background-color: #3838be;
 
 }
 
@@ -301,7 +305,6 @@ input::placeholder {
     .sidebar {
         height: 1024px;
         width: 271px;
-        display: none;
         border-radius: 0px;
         background-color: white;
     }
