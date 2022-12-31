@@ -48,6 +48,13 @@ a {
     justify-content: space-around;
 }
 
+.tabs h3 {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
 .line {
     height: 4px;
     width: 304px;
@@ -139,12 +146,12 @@ h3 {
 }
 
 .signin-btn:hover {
-    transform: translateX(10px);
+    background-color: #3838be;
     transition: 2s;
 }
 
 .google-btn:hover {
-    transform: translateX(10px);
+    background-color: #3838be;
     transition: 2s;
 }
 
@@ -187,6 +194,8 @@ h4 {
 .right-line {
     height: 4px;
     width: 302px;
+    position: absolute;
+    float: right;
     border-radius: 0px;
     background-color: var(--primarycolor);
 }
@@ -269,7 +278,6 @@ input[type="checkbox"] {
         top: 556px;
         border-radius: 8px;
         border: transparent;
-        padding: 14px 24px 14px 24px;
         background-color: var(--primarycolor);
         font-size: 15px;
         color: white;
@@ -290,7 +298,6 @@ input[type="checkbox"] {
         border-radius: 8px;
         font-size: 15px;
         border: 1px solid var(--primarycolor);
-        padding: 14px 24px 14px 24px;
         background-color: white;
         color: var(--primarycolor);
     }
@@ -303,7 +310,7 @@ input[type="checkbox"] {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 200px;
+        width: 400px;
     }
     
 

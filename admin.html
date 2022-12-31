@@ -14,15 +14,32 @@
             document.getElementById("a").style.display = "none";
             document.getElementById("b").style.display = "none";
             document.getElementById("open").style.display = "block";
+            document.getElementById("open").style.transition = "2s";
             document.getElementById("close").style.display = "none";
         }
         function openNav() {
-            var x = document.getElementById("sidebar").style.width = "450px";
+            var x = document.getElementById("sidebar").style.width = "271px";
             document.getElementById("a").style.display = "block";
             document.getElementById("b").style.display = "block";
             document.getElementById("open").style.display = "none";
             document.getElementById("close").style.display = "block";
         }
+          var formulaGenerartor = document.getElementById('formula-generator');
+          var formulaExplainer = document.getElementById('formula-explainer');
+          function formulagenerator() {
+            document.getElementById('formula-generator').style.display = "block";
+            document.getElementById('formula-link').className = 'active';
+            document.getElementById('ex-link').className = '';
+            document.getElementById('formula-explainer').style.display = "none";
+          }
+
+          function formulaexplainer() {
+            document.getElementById('formula-explainer').style.display = "block";
+            document.getElementById('ex-link').className = 'active';
+            document.getElementById('formula-link').className = '';
+            document.getElementById('formula-generator').style.display = "none";
+            
+          }
     </script>
 </head>
 
@@ -47,8 +64,8 @@
             <nav>
                 <div class="b" id="a">
                     <ul>
-                        <li><a href="./admin.html">Generate Formula</a></li>
-                        <li><a href="./admin-two.html">Formula Explainer</a></li>
+                        <li onclick="formulagenerator()" id="formula-link">Generate Formula</li>
+                        <li onclick="formulaexplainer()" id="ex-link">Formula Explainer</li>
                         <li><a href="">Archive</a></li>
                     </ul>
                 </div>
@@ -97,7 +114,7 @@
         </div>
 
         <!--desktop 2-->
-        <!--<div class="main" id="formula-explainer">
+        <div class="main" id="formula-explainer" style="display: none">
             <div class="section-one section-one-h">
                 <h1>Formula Explainer</h1>
                 <h2>If you are looking to get help in building an excel or google sheet formaula.
@@ -120,7 +137,7 @@
                     <h2 class="sec-h2">This formula counts the number of rows in cell A2:B20 with the value greater than
                         20</h2>
                 </div>
-            </div>-->
+            </div>
     </div>
     </div>
 

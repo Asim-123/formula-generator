@@ -72,7 +72,12 @@ header {
     margin-top: 30px;
     list-style: none;
 }
-
+.active {
+    background-color: #F04C04;
+    height: 30px;
+    width: 210px;
+    padding: 10px ;
+}
 .sidebar nav ul li a:hover {
     color: #F04C04;
     transition: 1s;
