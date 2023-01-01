@@ -329,7 +329,7 @@ input::placeholder {
     .section-one {
         padding: 15px;
         box-sizing: border-box;
-        height: 600px;
+        height: 500px;
         width: 300px;
         margin-left: 20px;
         margin-Top: 20px;
@@ -339,7 +339,7 @@ input::placeholder {
     .section-two {
         padding: 15px;
         box-sizing: border-box;
-        height: 600px;
+        height: 700px;
         width: 320px;
         margin-left: 20px;
         margin-Top: 20px;
@@ -361,7 +361,7 @@ input::placeholder {
         background-color: var(--bodycolor);
         margin-top: 18px;
         padding: 20px;
-        height: 120px;
+        height: 150px;
         width: 250px;
         border-radius: 6px;
     }
@@ -371,3 +371,4 @@ input::placeholder {
     }
 
 }
+
