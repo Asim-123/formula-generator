@@ -59,6 +59,7 @@ header {
     width: 271px;
     border-radius: 0px;
     background-color: white;
+    transition: 1s;
 }
 
 .sidebar nav ul {
@@ -66,6 +67,7 @@ header {
     width: 200px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .sidebar nav ul li {
@@ -322,7 +324,7 @@ input::placeholder {
         padding: 15px;
         box-sizing: border-box;
         height: 400px;
-        width: 400px;
+        width: 350px;
         margin-left: 20px;
         margin-Top: 20px;
         border-radius: 6px;
@@ -332,7 +334,7 @@ input::placeholder {
         padding: 15px;
         box-sizing: border-box;
         height: 600px;
-        width: 400px;
+        width: 350px;
         margin-left: 20px;
         margin-Top: 20px;
         border-radius: 6px;
@@ -341,7 +343,7 @@ input::placeholder {
 
     input {
         height: 30px;
-        width: 300px;
+        width: 250px;
         left: 0px;
         top: 27px;
         border: 2px solid var(--primarycolor);
@@ -354,7 +356,7 @@ input::placeholder {
         margin-top: 18px;
         padding: 20px;
         height: 120px;
-        width: 300px;
+        width: 250px;
         border-radius: 6px;
     }
 

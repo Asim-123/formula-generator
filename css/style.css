@@ -19,10 +19,17 @@ img {
     display: flex;
     justify-content: center;
 }
-
+.active {
+    color: black;
+    transition: 2s;
+}
 .formula-heading {
     display: flex;
     justify-content: center;
+}
+
+.tabs {
+    transition: 2s;
 }
 
 .sign-in {
@@ -267,7 +274,7 @@ input[type="checkbox"] {
     }
 
     .right-line {
-        width: 200px;
+        width: 150px;
     }
     
     .signin-btn {

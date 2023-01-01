@@ -13,10 +13,15 @@
         function signIn() {
             document.getElementById("Sign-in").style.display = "flex";
             document.getElementById("sign-up").style.display = "none";
+            document.getElementById('signin').className = 'active';
+            document.getElementById('signup').className = '';
         }
         function signUp() {
             document.getElementById("Sign-in").style.display = "none";
             document.getElementById("sign-up").style.display = "flex";
+            document.getElementById('signup').className = 'active';
+            document.getElementById('signin').className = '';
+           
         }
     </script>
 </head>
@@ -26,8 +31,8 @@
     <div class="sign-in" id="Sign-in">
         <div class="card">
             <div class="tabs">
-                <h3 onclick="signIn()">Sign In</h3>
-                <h3 onclick="signUp()">Sign Up</h3>
+                <h3 class="active" id="signin" onclick="signIn()">Sign In</h3>
+                <h3 id="signup" onclick="signUp()">Sign Up</h3>
             </div>
             <div class="line"></div>
             <div class="form">
@@ -50,8 +55,8 @@
     <div class="sign-in" id="sign-up" style="display: none">
         <div class="card sign-up">
             <div class="tabs">
-                <h3 onclick="signIn()">Sign In</h3>
-                <h3 onclick="signUp()">Sign Up</h3>
+                <h3 id="signin" onclick="signIn()">Sign In</h3>
+                <h3 id="signup" onclick="signUp()">Sign Up</h3>
                 
             </div>
             <div class="right-line"></div>
